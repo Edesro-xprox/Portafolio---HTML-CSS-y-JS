@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+  </head>
+  <body class = "dark">
+    <!--Barra de encabezado-->
+    <header class="header">
+      <div class="switches">
+        <div id = "toggle-theme" class="toggle-theme">
+          <img id = "toggle-icon" class = "toggle-theme__icon" src="assets/icons/moon.svg" alt="icon theme">
+          <p id = "toggle-text" class="toggle-theme__text">Dark Mode</p>
+        </div>
+      </div>
+      <div id = "toggle-colors" class="colors">
+        <div data-color="hsl(214, 84%, 56%)" class="colors__item colors__item--blue"></div>
+
+        <div data-color="hsl(150, 84%, 56%)" class="colors__item colors__item--green"></div>
+
+        <div data-color="hsl(276, 84%, 56%)" class="colors__item colors__item--purple"></div>
+
+        <div data-color="hsl(46, 84%, 56%)" class="colors__item colors__item--orange"></div>
+      </div>
+    </header>
+    <!--Contenido-->
+    <main class="main">
+      <!--Columna izquierda-->
+      <section class="column column--left">
+        <!-- PROFILE CARD -->
+        <article class="card card--profile">
+          <div class="card__image-container">
+            <img src="assets/images/logo_personal.png" alt="">
+          </div>
+
+          <div class="card__header">
+            <h2 class="card__title">Edson Espinoza</h2>
+            <p class="card__subtitle">Ingeniero de Sistemas</p>
+          </div>
+
+          <div class="card__body">
+            <div class="card__link">
+              <i class='bx bxs-envelope'></i>
+              <a href="mailto:edesro1996@gmail.com">
+                edesro1996@gmail.com
+              </a>
+            </div>
+
+            <div class="card__link">
+              <i class='bx bxs-phone'></i>
+              <a href="tel:978891282">
+                  +51 922 006 477
+              </a>
+            </div>
+
+            <p class="card__text">
+              ¡Hola! Soy Edson Espinoza y te comparto algunas de mis experiencias en la universidad asi como tambien en lo laboral,
+              además de mis conocimientos adquiridos a lo largo de los años. Tambien te contare un poco de mi y espero te guste el contenido.
+            </p>
+          </div>
+        </article>
+        <!--Experiencias-->
+        <article class="card card--experience">
+          <h2 class="card__title">Experiencias</h2>
+          <div class="experience"> 
+            <img src="assets/images/zoho-logo.png" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                06/2022 - 12/2022
+              </p>
+              <h3 class="experience__job">Reportes en Zoho con SQL</h3>
+              <p class="experience__description">Realización de reportes en un software para gestionar negocios llamado Zoho, usando el lenguaje de consultas SQL.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="card card--experience">
+          <h2 class="card__title">Experiencias</h2>
+          <div class="experience"> 
+            <img src="assets/images/maprosoft.jpg" alt="logo" class="experience__image">
+            <div class="experience__info">
+              <p class="experience__time">
+                15/09/2023 - Actualidad 
+              </p>
+              <h3 class="experience__job">Programador Junior - Maprosoft</h3>
+              <p class="experience__description">Programar, desarrollar y diseñar sistemas de uso empresarial.</p>
+            </div>
+          </div>
+        </article>
+
+        <!--Hobbies-->
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/videogame__hobbie.jpg" alt="Man on a bike">
+          </div>
+          <h3 class="hobbie__title">Videojuegos</h3>
+          <p class="card__text">
+            Me gustan mucho los videojuegos, de cualquier categoria, como de plataformas, terror, aventura, etc. 
+          </p>
+        </article>
+
+        <article class="card card--hobbies">
+          <h2 class="card__title">Hobbies</h2>
+          <div class="card__image-container">
+            <img src="assets/images/viajes__hobbie.webp" alt="Man on a bike">
+          </div>
+          <h3 class="hobbie__title">Viajes</h3>
+          <p class="card__text">
+            Los viajes suelen ser experiencias para despegar la mente y conocer nuevas cosas. 
+          </p>
+        </article>
+      </section>
+
+      <!--Columna derecha-->
+      <section class="column column--right">
+        <article class="card">
+          <h2 class="card__title">Front - End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">HTML5</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">CSS</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">JavaScript</p>
+              <div class="skills__bar skills__bar--60"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">JQuery</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Bootstrap</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">React JS</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">AOS (Animate on Scroll)</p>
+              <div class="skills__bar skills__bar--10"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">DevExpress</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Back - End</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Node.js</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Express.js</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">C# (en entorno ASP.NET)</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">SQL</p>
+              <div class="skills__bar skills__bar--50"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Oracle Database</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Multimedia</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Filmora</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">OBS Studio</p>
+              <div class="skills__bar skills__bar--20"></div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <h2 class="card__title">Ofimática</h2>
+          <small>Años de experiencia</small>
+          <div class="skills">
+            <div class="skills__header">
+              <span class="skills__start-level">0</span>
+              <span class="skills__start-level">5</span>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Excel</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Power BI</p>
+              <div class="skills__bar skills__bar--40"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Word</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+
+            <div class="skills__item">
+              <p class="skills__tech">Power Point</p>
+              <div class="skills__bar skills__bar--30"></div>
+            </div>
+        </article>
+        
+        <div class="card card--project">
+          <div class="card__image-container">
+            <img class="card__image" src="/assets/images/chartCounter.png">
+          </div>
+          <div class="card__info">
+            <h1 class="card__title">Contador de carácteres</h1>
+            <h2 class="card__subtitle">Aplicación de escritorio .NET</h2>
+            <p class="card__text">
+              Es un aplicativo de escritorio hecho con los widgets de formulario .NET,
+              en donde se puede ingresar textos y en la parte de abajo visualizar el
+              número de carácteres (contando los espacios en blanco dejado entre palabras,
+              no se considera los espacios al comienzo).
+            </p>
+            <div class="card_badges">
+              <div class="card_badge_item">#Windows Form</div>
+              <div class="card_badge_item">#C Sharp</div>
+            </div>
+            <div class="card__website">
+              <a class="card_link" href="https://github.com/Edesro-xprox/CharCounter---WindowsForms.git" target = "__blank">Ir al proyecto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--project">
+          <div class="card__image-container">
+            <img class="card__image" src="/assets/images/encrypter_descrypter.png">
+          </div>
+          <div class="card__info">
+            <h1 class="card__title">Encriptador y Desencriptador de contraseñas</h1>
+            <h2 class="card__subtitle">Encriptador y Desencriptador .NET</h2>
+            <p class="card__text">
+              Es un aplicativo de escritorio hecho con los widgets de formulario .NET,
+              en donde se puede ingresar textos planos y encriptarlo en una serie de carácteres
+              o ingresar el encriptado para poder desencriptarlo y obtener el texto plano.
+            </p>
+            <div class="card_badges">
+              <div class="card_badge_item">#Windows Form</div>
+              <div class="card_badge_item">#C Sharp</div>
+            </div>
+            <div class="card__website">
+              <a class="card_link" href="https://github.com/Edesro-xprox/Encriptador-Desencriptador---WindowsForms.git" target = "__blank">Ir al proyecto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card card--project">
+          <div class="card__image-container">
+            <img class="card__image" src="/assets/images/clicsCounter.png">
+          </div>
+          <div class="card__info">
+            <h1 class="card__title">Contador de clics</h1>
+            <h2 class="card__subtitle">Aplicación de React JS</h2>
+            <p class="card__text">
+              Juego de contador clics en un tiempo de 10 segundos, contando los 3 primeros
+              puntajes mas altos por cada juego intento realizado.
+            </p>
+            <div class="card_badges">
+              <div class="card_badge_item">#React JS</div>
+              <div class="card_badge_item">#JavaScript</div>
+            </div>
+            <div class="card__website">
+              <a class="card_link" href="https://github.com/Edesro-xprox/Contador-de-clics---React.git" target = "__blank">Ir al proyecto</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="js/scripts.js"></script>
+  </body>
+</html> 
