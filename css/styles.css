@@ -46,26 +46,39 @@ body.dark{
     transition: var(--transition);
 }
 
+.btn-WhatssApp {
+    background-color: #3182CF;
+    color: white;
+    border: none;
+    padding: 12px 12px;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-WhatssApp:hover {
+    background-color: #1E62B8; /* Un azul un poco más oscuro al pasar el mouse */
+}
+
+.btn-WhatssApp > .iconWhatssApp{
+    margin-right: 5px;
+}
+
 .switches{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.toggle-theme{
+.socialNetworks{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.fab{
     cursor: pointer;
-}
-
-.toggle-theme__icon{
-    margin-right: 0.5em;
-    width: 20px;
-}
-
-.toggle-theme__text{
-    font-size: 0.8rem;
 }
 
 .colors{
