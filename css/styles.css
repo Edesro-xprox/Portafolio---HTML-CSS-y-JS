@@ -233,7 +233,8 @@ body.dark{
 
 .card_badges{
     display: flex;
-    gap: 2%;
+    gap: 5px;
+    flex-wrap: wrap;
     color: var(--text-color);
 }
 
