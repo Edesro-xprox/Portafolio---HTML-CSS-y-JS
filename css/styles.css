@@ -191,6 +191,16 @@ body.dark{
     border-radius: var(--border-radius);
 }
 
+.card--projects{
+    padding: 0.1em 1em;
+    background-color: var(--bg-card-color);
+    border-radius: var(--border-radius);
+}
+
+.card--title--projects{
+    font-size: 1.2rem;
+}
+
 .card__image-container{
     margin-bottom: 1em;
     min-width: 280px;
